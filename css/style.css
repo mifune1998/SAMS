@@ -1,0 +1,102 @@
+body{
+    background: #fff;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* header */
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    background: #003366;
+    height: 70px;
+}
+
+#left-nav{
+    float: left;
+    padding-left: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#right-nav{
+    float: right;
+    padding-right: 20px;
+}
+#right-nav li{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+/* body ATTENDANCE PAGE */
+.grad1{
+    background-image: linear-gradient(to bottom right, white, #8bd3ff);
+    width:1920px;
+    height: 1080px;
+}
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10%;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    right: 100px;
+    padding-bottom: 10px;
+    background-color: bisque;
+    margin: 100px;
+    display: inline-block;
+}
+
+h1 {
+    color: #fff;
+    background-color: #003366;
+    text-align: center;
+}
+
+#tarikh {
+    margin: 0px 50px;
+    margin-bottom: 20px;
+}
+
+#category {
+    font-style: italic;
+}
+#submit {
+    background-color: #003366;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 150px 30px;
+    cursor: pointer;
+    float: right;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b6d9ee;
+  color: black;
+  text-align: center;
+}
