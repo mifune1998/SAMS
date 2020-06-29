@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Student's Attendance</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1 id="left-nav">S  A  M  S</h1>
+            <ul id="right-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="report2.html">Report</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </header>
+        <div class="grad1">
+        <div id="container">
+            <div id="main">
+                <h1>ATTENDANCE</h1><br>
+
+                <form action="" method="GET" id="tarikh">
+                    <label for="date">Date: <input type="text" id="date" name="date"></label>
+                </form>
+
+                <table id="table-studentlist">
+                <tr id="category">
+                    <th width="50%">STUDENT NAME</th>
+                    <th width="10%">MATRIC NO</th>
+                    <th width="30%">STATUS</th>
+                    <th width="10%">ACTION</th>
+                </tr>
+                <tr>
+                    <th width="50%">Najiha Khaidir</th>
+                    <th width="10%">1912042</th>
+                    <th width="30%"><input type="radio" id="present" name="yn1" checked>Present</input>
+                        <input type="radio" id="absent" name="yn1">Absent</input></th>
+                    <th width="10%"><input type="button" value="Remove" onclick="deleteRow(this)"></th>
+                    <script>
+                        function deleteRow(r) {
+                        var i = r.parentNode.parentNode.rowIndex;
+                        document.getElementById("table-studentlist").deleteRow(i);
+                        }
+                      </script>
+                </tr>
+                <tr>
+                    <th width="50%">Amirul Ariff</th>
+                    <th width="10%">1812052</th>
+                    <th width="30%"><input type="radio" id="present" name="yn2" checked>Present</input>
+                        <input type="radio" id="absent" name="yn2">Absent</input></th>
+                    <th width="10%"><input type="button" value="Remove" onclick="deleteRow(this)"></th>
+                    <script>
+                    function deleteRow(r) {
+                    var i = r.parentNode.parentNode.rowIndex;
+                    document.getElementById("table-studentlist").deleteRow(i);
+                    }
+                    </script>
+                </tr>
+                <tr>
+                    <th width="50%">Marini Othman</th>
+                    <th width="10%">1718092</th>
+                    <th width="30%"><input type="radio" id="present" name="yn3" checked>Present</input>
+                        <input type="radio" id="absent" name="yn3">Absent</input></th>
+                    <th width="10%"><input type="button" value="Remove" onclick="deleteRow(this)"></th>
+                    <script>
+                    function deleteRow(r) {
+                    var i = r.parentNode.parentNode.rowIndex;
+                    document.getElementById("table-studentlist").deleteRow(i);
+                    }
+                    </script>
+                </tr>
+                </table>
+                <a href="report2.html" id="submit">SUBMIT</a>
+
+                    <!-- <form action="/record.html"
+                    method="get" id="status">
+                        <li><input type="radio" id="present" name="yn1" checked>Present</input>
+                        <input type="radio" id="absent" name="yn1">Absent</input></li>
+                        <li><input type="radio" id="present" name="yn2" checked>Present</input>
+                        <input type="radio" id="absent" name="yn2">Absent</input></li>
+                        <li><input type="radio" id="present" name="yn3" checked>Present</input>
+                        <input type="radio" id="absent" name="yn3">Absent</input></li>
+                    </form> -->
+
+            </div>
+        </div>
+      </div>
+        <footer>
+            &COPY;2020 by Tidak Lagi sdn. bhd.
+        </footer>
+    </body>
+</html>
