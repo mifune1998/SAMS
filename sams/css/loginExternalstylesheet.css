@@ -1,0 +1,143 @@
+* {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+body {
+  border: 1px solid black;
+  background: white;
+}
+.grad1{
+    background-image: linear-gradient(to bottom right, white, #8bd3ff);
+    width:1920px;
+    height: 1080px;
+}
+.container{
+   width: 95%;
+   margin: 0 auto;
+}
+.logo_div{
+  float: left;
+  padding-left: 20px;
+
+}
+.logo_div h1{
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  height: 70px;
+  line-height: 70px;
+  background-color: #003366;
+  border-bottom: 2px solid red;
+}
+
+.menu {
+  float: right;
+}
+
+.menu li {
+  float: left;
+  width: 120px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  list-style: none;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.menu li :hover {
+  background-color: red;
+}
+
+.menu li a:hover {
+  background-color: purple;
+}
+
+.loginbox{
+  width: 420px;
+  height: 420px;
+  background:#579aff;
+  color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+
+}
+
+.avatar{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+
+}
+
+.loginbox h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#submit
+{
+  background-color: #96ff73;
+  border: none;
+  color: black;
+  padding: 25px 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 120px;
+  cursor: pointer;
+  float: right;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b6d9ee;
+  color: black;
+  text-align: center;
+}
